@@ -65,10 +65,10 @@ class ViewController: UIViewController
     {
         rotatedWidgets.append(sourceWidget)
         
-        for sublayer in view.layer.sublayers
+        for sublayer in view.layer.sublayers!
         {
             if let targetWidget = sublayer as? WheelWidget where
-                                    find(rotatedWidgets, targetWidget) == nil &&
+                                    rotatedWidgets.indexOf(targetWidget) == nil &&
                                     targetWidget != sourceWidget && abs(sourceWidget.origin.distance(targetWidget.origin) - (sourceWidget.radius + targetWidget.radius)) < 8
             {
                 let newAngle = -angle * (sourceWidget.radius / targetWidget.radius)
@@ -80,15 +80,15 @@ class ViewController: UIViewController
         }
     }
     
-    override func touchesBegan(touches: Set<NSObject>, withEvent event: UIEvent)
+    override func touchesBegan(touches: Set<UITouch>, withEvent event: UIEvent?)
     {
-        if let locationInView = (touches.first as? UITouch)?.locationInView(view)
+        if let locationInView = touches.first?.locationInView(view)
         {
             selectedWheelWidget = getWheelWidgetAtLocation(locationInView)
         }
     }
     
-    override func touchesEnded(touches: Set<NSObject>, withEvent event: UIEvent)
+    override func touchesEnded(touches: Set<UITouch>, withEvent event: UIEvent?)
     {
         selectedWheelWidget = nil
     }
@@ -169,7 +169,7 @@ class ViewController: UIViewController
     {
         var returnValue: WheelWidget?
         
-        for sublayer in view.layer.sublayers
+        for sublayer in view.layer.sublayers!
         {
             if let widget = sublayer as? WheelWidget where (location.distance(widget.origin) < widget.radius)
             {

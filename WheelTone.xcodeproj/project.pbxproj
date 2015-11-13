@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		BE1C43931AF094D200F71149 /* libAudioKit iOS Static.a in Frameworks */ = {isa = PBXBuildFile; fileRef = BE1C438C1AF094A000F71149 /* libAudioKit iOS Static.a */; };
+		07498C7B1BF5707A00BBE0E4 /* AudioKit.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07498C7A1BF5707A00BBE0E4 /* AudioKit.swift */; };
 		BE1C43971AF0959400F71149 /* Instrument.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE1C43961AF0959400F71149 /* Instrument.swift */; };
 		BE1C43991AF095B500F71149 /* Conductor.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE1C43981AF095B500F71149 /* Conductor.swift */; };
 		BE42B9C41AEB965D00357EBF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE42B9C31AEB965D00357EBF /* AppDelegate.swift */; };
@@ -19,37 +19,10 @@
 		BE42B9E51AEB987800357EBF /* WheelWidget.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE42B9E41AEB987800357EBF /* WheelWidget.swift */; };
 		BE42B9E81AECA42400357EBF /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE42B9E71AECA42400357EBF /* Extensions.swift */; };
 		BEF444051AF165CF006E1BB3 /* AKSoundFiles.bundle in Resources */ = {isa = PBXBuildFile; fileRef = BEF444041AF165CF006E1BB3 /* AKSoundFiles.bundle */; };
+		E99DFD99A0435FD18BBA3386 /* Pods.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB674E6A37ACAF76A62E7578 /* Pods.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		BE1C438B1AF094A000F71149 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = BE1C43851AF094A000F71149 /* AudioKit.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = EA8E93D81AD3C5240057E979;
-			remoteInfo = "AudioKit iOS Static";
-		};
-		BE1C438D1AF094A000F71149 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = BE1C43851AF094A000F71149 /* AudioKit.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = EAA0F5941AE71C8F007CD7C9;
-			remoteInfo = "AudioKit iOS Dynamic";
-		};
-		BE1C438F1AF094A000F71149 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = BE1C43851AF094A000F71149 /* AudioKit.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = EA8E96591AD3C6FC0057E979;
-			remoteInfo = "AudioKit OS X";
-		};
-		BE1C43911AF094CC00F71149 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = BE1C43851AF094A000F71149 /* AudioKit.xcodeproj */;
-			proxyType = 1;
-			remoteGlobalIDString = EA8E93D71AD3C5240057E979;
-			remoteInfo = "AudioKit iOS Static";
-		};
 		BE42B9D41AEB965D00357EBF /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BE42B9B61AEB965D00357EBF /* Project object */;
@@ -60,8 +33,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		BE1C43851AF094A000F71149 /* AudioKit.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = AudioKit.xcodeproj; path = AudioKit/AudioKit.xcodeproj; sourceTree = "<group>"; };
-		BE1C43941AF0954200F71149 /* Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = Header.h; path = WheelTone/Header.h; sourceTree = "<group>"; };
+		07498C7A1BF5707A00BBE0E4 /* AudioKit.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AudioKit.swift; sourceTree = "<group>"; };
 		BE1C43961AF0959400F71149 /* Instrument.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Instrument.swift; sourceTree = "<group>"; };
 		BE1C43981AF095B500F71149 /* Conductor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Conductor.swift; sourceTree = "<group>"; };
 		BE42B9BE1AEB965D00357EBF /* WheelTone.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WheelTone.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -77,6 +49,9 @@
 		BE42B9E41AEB987800357EBF /* WheelWidget.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WheelWidget.swift; sourceTree = "<group>"; };
 		BE42B9E71AECA42400357EBF /* Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
 		BEF444041AF165CF006E1BB3 /* AKSoundFiles.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = AKSoundFiles.bundle; sourceTree = "<group>"; };
+		CB674E6A37ACAF76A62E7578 /* Pods.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D0AE42F1CA4A1636795ED0B1 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
+		F8E0BB8FA3F9FCEC56C6B78C /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -84,7 +59,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BE1C43931AF094D200F71149 /* libAudioKit iOS Static.a in Frameworks */,
+				E99DFD99A0435FD18BBA3386 /* Pods.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -98,19 +73,27 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		BE1C43861AF094A000F71149 /* Products */ = {
+		4987EA4E9268647A4D395F9B /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				BE1C438C1AF094A000F71149 /* libAudioKit iOS Static.a */,
-				BE1C438E1AF094A000F71149 /* libAudioKit iOS Dynamic.a */,
-				BE1C43901AF094A000F71149 /* libAudioKit OS X.a */,
+				CB674E6A37ACAF76A62E7578 /* Pods.framework */,
 			);
-			name = Products;
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		510208B3335F15F564FF8241 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				D0AE42F1CA4A1636795ED0B1 /* Pods.debug.xcconfig */,
+				F8E0BB8FA3F9FCEC56C6B78C /* Pods.release.xcconfig */,
+			);
+			name = Pods;
 			sourceTree = "<group>";
 		};
 		BE1C43951AF0957C00F71149 /* audioKit */ = {
 			isa = PBXGroup;
 			children = (
+				07498C7A1BF5707A00BBE0E4 /* AudioKit.swift */,
 				BE1C43961AF0959400F71149 /* Instrument.swift */,
 				BEF444041AF165CF006E1BB3 /* AKSoundFiles.bundle */,
 				BE1C43981AF095B500F71149 /* Conductor.swift */,
@@ -121,11 +104,11 @@
 		BE42B9B51AEB965D00357EBF = {
 			isa = PBXGroup;
 			children = (
-				BE1C43941AF0954200F71149 /* Header.h */,
-				BE1C43851AF094A000F71149 /* AudioKit.xcodeproj */,
 				BE42B9C01AEB965D00357EBF /* WheelTone */,
 				BE42B9D61AEB965D00357EBF /* WheelToneTests */,
 				BE42B9BF1AEB965D00357EBF /* Products */,
+				510208B3335F15F564FF8241 /* Pods */,
+				4987EA4E9268647A4D395F9B /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -202,14 +185,16 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = BE42B9DD1AEB965D00357EBF /* Build configuration list for PBXNativeTarget "WheelTone" */;
 			buildPhases = (
+				808E475D90F037A6EC7BBEAD /* Check Pods Manifest.lock */,
 				BE42B9BA1AEB965D00357EBF /* Sources */,
 				BE42B9BB1AEB965D00357EBF /* Frameworks */,
 				BE42B9BC1AEB965D00357EBF /* Resources */,
+				6CB59E2E54CF7111055DA456 /* Embed Pods Frameworks */,
+				614C74891874284D6CA3CC9E /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				BE1C43921AF094CC00F71149 /* PBXTargetDependency */,
 			);
 			name = WheelTone;
 			productName = WheelTone;
@@ -240,7 +225,9 @@
 		BE42B9B61AEB965D00357EBF /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0630;
+				LastSwiftMigration = 0710;
+				LastSwiftUpdateCheck = 0710;
+				LastUpgradeCheck = 0710;
 				ORGANIZATIONNAME = "Simon Gladman";
 				TargetAttributes = {
 					BE42B9BD1AEB965D00357EBF = {
@@ -263,12 +250,6 @@
 			mainGroup = BE42B9B51AEB965D00357EBF;
 			productRefGroup = BE42B9BF1AEB965D00357EBF /* Products */;
 			projectDirPath = "";
-			projectReferences = (
-				{
-					ProductGroup = BE1C43861AF094A000F71149 /* Products */;
-					ProjectRef = BE1C43851AF094A000F71149 /* AudioKit.xcodeproj */;
-				},
-			);
 			projectRoot = "";
 			targets = (
 				BE42B9BD1AEB965D00357EBF /* WheelTone */,
@@ -276,30 +257,6 @@
 			);
 		};
 /* End PBXProject section */
-
-/* Begin PBXReferenceProxy section */
-		BE1C438C1AF094A000F71149 /* libAudioKit iOS Static.a */ = {
-			isa = PBXReferenceProxy;
-			fileType = archive.ar;
-			path = "libAudioKit iOS Static.a";
-			remoteRef = BE1C438B1AF094A000F71149 /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-		BE1C438E1AF094A000F71149 /* libAudioKit iOS Dynamic.a */ = {
-			isa = PBXReferenceProxy;
-			fileType = archive.ar;
-			path = "libAudioKit iOS Dynamic.a";
-			remoteRef = BE1C438D1AF094A000F71149 /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-		BE1C43901AF094A000F71149 /* libAudioKit OS X.a */ = {
-			isa = PBXReferenceProxy;
-			fileType = archive.ar;
-			path = "libAudioKit OS X.a";
-			remoteRef = BE1C438F1AF094A000F71149 /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-/* End PBXReferenceProxy section */
 
 /* Begin PBXResourcesBuildPhase section */
 		BE42B9BC1AEB965D00357EBF /* Resources */ = {
@@ -322,6 +279,54 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		614C74891874284D6CA3CC9E /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6CB59E2E54CF7111055DA456 /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		808E475D90F037A6EC7BBEAD /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		BE42B9BA1AEB965D00357EBF /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -331,6 +336,7 @@
 				BE1C43991AF095B500F71149 /* Conductor.swift in Sources */,
 				BE42B9C61AEB965D00357EBF /* ViewController.swift in Sources */,
 				BE42B9C41AEB965D00357EBF /* AppDelegate.swift in Sources */,
+				07498C7B1BF5707A00BBE0E4 /* AudioKit.swift in Sources */,
 				BE42B9E51AEB987800357EBF /* WheelWidget.swift in Sources */,
 				BE42B9E81AECA42400357EBF /* Extensions.swift in Sources */,
 			);
@@ -347,11 +353,6 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		BE1C43921AF094CC00F71149 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = "AudioKit iOS Static";
-			targetProxy = BE1C43911AF094CC00F71149 /* PBXContainerItemProxy */;
-		};
 		BE42B9D51AEB965D00357EBF /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = BE42B9BD1AEB965D00357EBF /* WheelTone */;
@@ -400,6 +401,7 @@
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_NO_COMMON_BLOCKS = YES;
@@ -464,26 +466,32 @@
 		};
 		BE42B9DE1AEB965D00357EBF /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D0AE42F1CA4A1636795ED0B1 /* Pods.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = WheelTone/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_BUNDLE_IDENTIFIER = "uk.co.flexmonkey.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_OBJC_BRIDGING_HEADER = ./WheelTone/Header.h;
+				SWIFT_INSTALL_OBJC_HEADER = NO;
+				SWIFT_OBJC_BRIDGING_HEADER = "";
 				USER_HEADER_SEARCH_PATHS = "./AudioKit/AudioKit/**";
 			};
 			name = Debug;
 		};
 		BE42B9DF1AEB965D00357EBF /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F8E0BB8FA3F9FCEC56C6B78C /* Pods.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = WheelTone/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_BUNDLE_IDENTIFIER = "uk.co.flexmonkey.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_OBJC_BRIDGING_HEADER = ./WheelTone/Header.h;
+				SWIFT_INSTALL_OBJC_HEADER = NO;
+				SWIFT_OBJC_BRIDGING_HEADER = "";
 				USER_HEADER_SEARCH_PATHS = "./AudioKit/AudioKit/**";
 			};
 			name = Release;
@@ -502,6 +510,7 @@
 				);
 				INFOPLIST_FILE = WheelToneTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "uk.co.flexmonkey.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WheelTone.app/WheelTone";
 			};
@@ -517,6 +526,7 @@
 				);
 				INFOPLIST_FILE = WheelToneTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "uk.co.flexmonkey.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WheelTone.app/WheelTone";
 			};

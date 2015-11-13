@@ -7,17 +7,7 @@
 //
 
 import Foundation
-
-extension Double
-{
-    var ak: AKConstant
-    {
-        get
-        {
-            return AKConstant(float: Float(self))
-        }
-    }
-}
+import AudioKit
 
 class MarimbaInstrument: AKInstrument
 {
